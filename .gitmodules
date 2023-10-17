@@ -1,3 +1,6 @@
 [submodule "Submodules/lottie-ios"]
 	path = Submodules/lottie-ios
 	url = https://github.com/LottieFiles/lottie-ios.git
+[submodule "Submodules/xcconfig"]
+	path = Submodules/xcconfig
+	url = https://github.com/macmade/xcconfig.git
