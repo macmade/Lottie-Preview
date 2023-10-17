@@ -1,0 +1,3 @@
+[submodule "Submodules/lottie-ios"]
+	path = Submodules/lottie-ios
+	url = https://github.com/LottieFiles/lottie-ios.git
