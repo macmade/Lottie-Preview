@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22154" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22154"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LottieWindowController" customModule="Lottie_Preview" customModuleProvider="target">
+            <connections>
+                <outlet property="container" destination="6qn-4f-C6k" id="npb-Tp-mjG"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="Wgz-mS-5VD"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Lottie Preview" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="700" height="500"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3008" height="1228"/>
+            <value key="minSize" type="size" width="700" height="500"/>
+            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="700" height="500"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="6qn-4f-C6k">
+                        <rect key="frame" x="0.0" y="0.0" width="700" height="500"/>
+                    </customView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6qn-4f-C6k" secondAttribute="trailing" id="42T-71-5uc"/>
+                    <constraint firstItem="6qn-4f-C6k" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="4vf-kZ-bPZ"/>
+                    <constraint firstItem="6qn-4f-C6k" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="fm9-jW-c9c"/>
+                    <constraint firstAttribute="bottom" secondItem="6qn-4f-C6k" secondAttribute="bottom" id="zrm-BU-Uu4"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="292.5" y="293.5"/>
+        </window>
+    </objects>
+</document>

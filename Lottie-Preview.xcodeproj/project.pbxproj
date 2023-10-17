@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05663DE12AD82B2200DA9B2C /* BytesToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05663DE02AD82B2200DA9B2C /* BytesToString.swift */; };
+		05DD6C762AD6CA1300FB2DA0 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD6C752AD6CA1300FB2DA0 /* ApplicationDelegate.swift */; };
+		05DD6C782AD6CA1400FB2DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DD6C772AD6CA1400FB2DA0 /* Assets.xcassets */; };
+		05DD6C7B2AD6CA1400FB2DA0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DD6C792AD6CA1400FB2DA0 /* MainMenu.xib */; };
+		05DD6C922AD6DDC900FB2DA0 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD6C8C2AD6DDC200FB2DA0 /* Lottie.framework */; };
+		05DD6C932AD6DDC900FB2DA0 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05DD6C8C2AD6DDC200FB2DA0 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05DD6C962AD6DE0600FB2DA0 /* LottieWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD6C952AD6DE0600FB2DA0 /* LottieWindowController.swift */; };
+		05DD6C982AD6DE3E00FB2DA0 /* LottieWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DD6C972AD6DE3E00FB2DA0 /* LottieWindowController.xib */; };
+		05DD6CA92AD6FD3D00FB2DA0 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD6CA82AD6FD3D00FB2DA0 /* LottieViewController.swift */; };
+		05DD6CAB2AD6FD4300FB2DA0 /* LottieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DD6CAA2AD6FD4300FB2DA0 /* LottieViewController.xib */; };
+		05DD6CAD2AD6FF6D00FB2DA0 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD6CAC2AD6FF6D00FB2DA0 /* DropView.swift */; };
+		05DD6CAF2AD701FE00FB2DA0 /* LottieFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD6CAE2AD701FE00FB2DA0 /* LottieFile.swift */; };
+		05DD6CBB2AD71C9D00FB2DA0 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD6CBA2AD71C9D00FB2DA0 /* NSView.swift */; };
+		05EB21D22AD7E75F0055668E /* LottieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EB21CC2AD7E75F0055668E /* LottieListViewController.swift */; };
+		05EB21D32AD7E75F0055668E /* LottieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05EB21D12AD7E75F0055668E /* LottieListViewController.xib */; };
+		05EB21D62AD7E9D30055668E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EB21D52AD7E9D30055668E /* BackgroundView.swift */; };
+		05EB21E42AD7EDE50055668E /* NSAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EB21E32AD7EDE50055668E /* NSAppearance.swift */; };
+		05EB21E72AD7F0240055668E /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05EB21E62AD7F0240055668E /* Defaults.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DD6C892AD6DDC200FB2DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DD6C822AD6DDC100FB2DA0 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E80409A27A0725D006E74CB;
+			remoteInfo = "Lottie-iOS";
+		};
+		05DD6C8B2AD6DDC200FB2DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DD6C822AD6DDC100FB2DA0 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2EAF59AD27A0787B00E00531;
+			remoteInfo = "Lottie-macOS";
+		};
+		05DD6C8D2AD6DDC200FB2DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DD6C822AD6DDC100FB2DA0 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2EAF59B927A078E400E00531;
+			remoteInfo = "Lottie-tvOS";
+		};
+		05DD6C8F2AD6DDC200FB2DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DD6C822AD6DDC100FB2DA0 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E8040AC27A072B8006E74CB;
+			remoteInfo = LottieTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05DD6C942AD6DDC900FB2DA0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05DD6C932AD6DDC900FB2DA0 /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05663DE02AD82B2200DA9B2C /* BytesToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BytesToString.swift; sourceTree = "<group>"; };
+		05663E6C2ADD2CA800DA9B2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058360292ADEF0BE0023BDB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0583602F2ADEF21E0023BDB9 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		058360302ADEF21E0023BDB9 /* Release - ccache.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Release - ccache.xcconfig"; sourceTree = "<group>"; };
+		058360312ADEF21E0023BDB9 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		058360322ADEF21E0023BDB9 /* Debug - ccache.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug - ccache.xcconfig"; sourceTree = "<group>"; };
+		058360332ADEF21E0023BDB9 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		058360342ADEF21E0023BDB9 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		058360352ADEF21E0023BDB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		058360362ADEF21E0023BDB9 /* Release - Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Release - Library.xcconfig"; sourceTree = "<group>"; };
+		058360382ADEF21E0023BDB9 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		058360392ADEF21E0023BDB9 /* Architectures.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Architectures.xcconfig; sourceTree = "<group>"; };
+		0583603B2ADEF21E0023BDB9 /* Issues.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Issues.xcconfig; sourceTree = "<group>"; };
+		0583603D2ADEF21E0023BDB9 /* Apple-APIs.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apple-APIs.xcconfig"; sourceTree = "<group>"; };
+		0583603E2ADEF21E0023BDB9 /* Generic-Issues.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Generic-Issues.xcconfig"; sourceTree = "<group>"; };
+		0583603F2ADEF21E0023BDB9 /* Security.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Security.xcconfig; sourceTree = "<group>"; };
+		058360402ADEF21E0023BDB9 /* Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C.xcconfig"; sourceTree = "<group>"; };
+		058360412ADEF21E0023BDB9 /* Analysis-Policy.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Analysis-Policy.xcconfig"; sourceTree = "<group>"; };
+		058360422ADEF21E0023BDB9 /* Deployment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Deployment.xcconfig; sourceTree = "<group>"; };
+		058360432ADEF21E0023BDB9 /* Build-Options.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Build-Options.xcconfig"; sourceTree = "<group>"; };
+		058360442ADEF21E0023BDB9 /* Swift-Compiler.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Swift-Compiler.xcconfig"; sourceTree = "<group>"; };
+		058360452ADEF21E0023BDB9 /* Static-Analyzer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Analyzer.xcconfig"; sourceTree = "<group>"; };
+		058360472ADEF21E0023BDB9 /* Warnings-Policies.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warnings-Policies.xcconfig"; sourceTree = "<group>"; };
+		058360482ADEF21E0023BDB9 /* Code-Generation.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Code-Generation.xcconfig"; sourceTree = "<group>"; };
+		058360492ADEF21E0023BDB9 /* Language.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Language.xcconfig; sourceTree = "<group>"; };
+		0583604A2ADEF21E0023BDB9 /* General.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = General.xcconfig; sourceTree = "<group>"; };
+		0583604B2ADEF21E0023BDB9 /* Search-Paths.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Search-Paths.xcconfig"; sourceTree = "<group>"; };
+		0583604C2ADEF21E0023BDB9 /* Apple-LLVM.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apple-LLVM.xcconfig"; sourceTree = "<group>"; };
+		0583604F2ADEF21E0023BDB9 /* Modules.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Modules.xcconfig; sourceTree = "<group>"; };
+		058360502ADEF21E0023BDB9 /* Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C.xcconfig"; sourceTree = "<group>"; };
+		058360512ADEF21E0023BDB9 /* C++.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "C++.xcconfig"; sourceTree = "<group>"; };
+		058360522ADEF21E0023BDB9 /* Code-Generation.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Code-Generation.xcconfig"; sourceTree = "<group>"; };
+		058360532ADEF21E0023BDB9 /* Address-Sanitizer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Address-Sanitizer.xcconfig"; sourceTree = "<group>"; };
+		058360542ADEF21E0023BDB9 /* Language.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Language.xcconfig; sourceTree = "<group>"; };
+		058360552ADEF21E0023BDB9 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		058360562ADEF21E0023BDB9 /* Undefined-Behavior-Sanitizer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Undefined-Behavior-Sanitizer.xcconfig"; sourceTree = "<group>"; };
+		058360572ADEF21E0023BDB9 /* Warning-Policies.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warning-Policies.xcconfig"; sourceTree = "<group>"; };
+		058360592ADEF21E0023BDB9 /* Objective-C-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C-ARC.xcconfig"; sourceTree = "<group>"; };
+		0583605A2ADEF21E0023BDB9 /* Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C.xcconfig"; sourceTree = "<group>"; };
+		0583605B2ADEF21E0023BDB9 /* C++.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "C++.xcconfig"; sourceTree = "<group>"; };
+		0583605C2ADEF21E0023BDB9 /* All-Languages.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "All-Languages.xcconfig"; sourceTree = "<group>"; };
+		0583605D2ADEF21E0023BDB9 /* Preprocessing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Preprocessing.xcconfig; sourceTree = "<group>"; };
+		0583605E2ADEF21E0023BDB9 /* Debug - Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug - Library.xcconfig"; sourceTree = "<group>"; };
+		0583605F2ADEF21E0023BDB9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		058360612ADEF21E0023BDB9 /* ccache-config.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "ccache-config.sh"; sourceTree = "<group>"; };
+		058360622ADEF21E0023BDB9 /* ccache.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ccache.sh; sourceTree = "<group>"; };
+		058360642ADEF21E0023BDB9 /* FUNDING.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = FUNDING.yml; sourceTree = "<group>"; };
+		058360652ADEF21E0023BDB9 /* Debug - zld.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug - zld.xcconfig"; sourceTree = "<group>"; };
+		05DD6C722AD6CA1300FB2DA0 /* Lottie Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie Preview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DD6C752AD6CA1300FB2DA0 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		05DD6C772AD6CA1400FB2DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05DD6C7A2AD6CA1400FB2DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05DD6C7C2AD6CA1400FB2DA0 /* Lottie-Preview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lottie-Preview.entitlements"; sourceTree = "<group>"; };
+		05DD6C822AD6DDC100FB2DA0 /* Lottie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lottie.xcodeproj; path = "Submodules/lottie-ios/Lottie.xcodeproj"; sourceTree = "<group>"; };
+		05DD6C952AD6DE0600FB2DA0 /* LottieWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieWindowController.swift; sourceTree = "<group>"; };
+		05DD6C972AD6DE3E00FB2DA0 /* LottieWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LottieWindowController.xib; sourceTree = "<group>"; };
+		05DD6CA82AD6FD3D00FB2DA0 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		05DD6CAA2AD6FD4300FB2DA0 /* LottieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LottieViewController.xib; sourceTree = "<group>"; };
+		05DD6CAC2AD6FF6D00FB2DA0 /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		05DD6CAE2AD701FE00FB2DA0 /* LottieFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFile.swift; sourceTree = "<group>"; };
+		05DD6CBA2AD71C9D00FB2DA0 /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		05EB21CC2AD7E75F0055668E /* LottieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieListViewController.swift; sourceTree = "<group>"; };
+		05EB21D12AD7E75F0055668E /* LottieListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LottieListViewController.xib; sourceTree = "<group>"; };
+		05EB21D52AD7E9D30055668E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		05EB21E32AD7EDE50055668E /* NSAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAppearance.swift; sourceTree = "<group>"; };
+		05EB21E62AD7F0240055668E /* Defaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DD6C6F2AD6CA1300FB2DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DD6C922AD6DDC900FB2DA0 /* Lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058360212ADEEFAB0023BDB9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05DD6C752AD6CA1300FB2DA0 /* ApplicationDelegate.swift */,
+				05EB21D52AD7E9D30055668E /* BackgroundView.swift */,
+				05663DE02AD82B2200DA9B2C /* BytesToString.swift */,
+				05DD6CAC2AD6FF6D00FB2DA0 /* DropView.swift */,
+				05DD6CAE2AD701FE00FB2DA0 /* LottieFile.swift */,
+				05EB21CC2AD7E75F0055668E /* LottieListViewController.swift */,
+				05DD6CA82AD6FD3D00FB2DA0 /* LottieViewController.swift */,
+				05DD6C952AD6DE0600FB2DA0 /* LottieWindowController.swift */,
+				05EB21E32AD7EDE50055668E /* NSAppearance.swift */,
+				05DD6CBA2AD71C9D00FB2DA0 /* NSView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		058360262ADEEFC10023BDB9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				05DD6C772AD6CA1400FB2DA0 /* Assets.xcassets */,
+				05EB21D12AD7E75F0055668E /* LottieListViewController.xib */,
+				05DD6CAA2AD6FD4300FB2DA0 /* LottieViewController.xib */,
+				05DD6C972AD6DE3E00FB2DA0 /* LottieWindowController.xib */,
+				05DD6C792AD6CA1400FB2DA0 /* MainMenu.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		058360272ADEEFD50023BDB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05EB21E62AD7F0240055668E /* Defaults.plist */,
+				05663E6C2ADD2CA800DA9B2C /* Info.plist */,
+				05DD6C7C2AD6CA1400FB2DA0 /* Lottie-Preview.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0583602E2ADEF21E0023BDB9 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				0583602F2ADEF21E0023BDB9 /* CODE_OF_CONDUCT.md */,
+				058360302ADEF21E0023BDB9 /* Release - ccache.xcconfig */,
+				058360312ADEF21E0023BDB9 /* Common.xcconfig */,
+				058360322ADEF21E0023BDB9 /* Debug - ccache.xcconfig */,
+				058360332ADEF21E0023BDB9 /* Debug.xcconfig */,
+				058360342ADEF21E0023BDB9 /* Release.xcconfig */,
+				058360352ADEF21E0023BDB9 /* README.md */,
+				058360362ADEF21E0023BDB9 /* Release - Library.xcconfig */,
+				058360372ADEF21E0023BDB9 /* Common */,
+				0583605E2ADEF21E0023BDB9 /* Debug - Library.xcconfig */,
+				0583605F2ADEF21E0023BDB9 /* .gitignore */,
+				058360602ADEF21E0023BDB9 /* Scripts */,
+				058360632ADEF21E0023BDB9 /* .github */,
+				058360652ADEF21E0023BDB9 /* Debug - zld.xcconfig */,
+			);
+			name = xcconfig;
+			path = Submodules/xcconfig;
+			sourceTree = "<group>";
+		};
+		058360372ADEF21E0023BDB9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				058360382ADEF21E0023BDB9 /* Signing.xcconfig */,
+				058360392ADEF21E0023BDB9 /* Architectures.xcconfig */,
+				0583603A2ADEF21E0023BDB9 /* Static-Analyzer */,
+				058360422ADEF21E0023BDB9 /* Deployment.xcconfig */,
+				058360432ADEF21E0023BDB9 /* Build-Options.xcconfig */,
+				058360442ADEF21E0023BDB9 /* Swift-Compiler.xcconfig */,
+				058360452ADEF21E0023BDB9 /* Static-Analyzer.xcconfig */,
+				058360462ADEF21E0023BDB9 /* Swift-Compiler */,
+				0583604B2ADEF21E0023BDB9 /* Search-Paths.xcconfig */,
+				0583604C2ADEF21E0023BDB9 /* Apple-LLVM.xcconfig */,
+				0583604D2ADEF21E0023BDB9 /* Apple-LLVM */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0583603A2ADEF21E0023BDB9 /* Static-Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				0583603B2ADEF21E0023BDB9 /* Issues.xcconfig */,
+				0583603C2ADEF21E0023BDB9 /* Issues */,
+			);
+			path = "Static-Analyzer";
+			sourceTree = "<group>";
+		};
+		0583603C2ADEF21E0023BDB9 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				0583603D2ADEF21E0023BDB9 /* Apple-APIs.xcconfig */,
+				0583603E2ADEF21E0023BDB9 /* Generic-Issues.xcconfig */,
+				0583603F2ADEF21E0023BDB9 /* Security.xcconfig */,
+				058360402ADEF21E0023BDB9 /* Objective-C.xcconfig */,
+				058360412ADEF21E0023BDB9 /* Analysis-Policy.xcconfig */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		058360462ADEF21E0023BDB9 /* Swift-Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				058360472ADEF21E0023BDB9 /* Warnings-Policies.xcconfig */,
+				058360482ADEF21E0023BDB9 /* Code-Generation.xcconfig */,
+				058360492ADEF21E0023BDB9 /* Language.xcconfig */,
+				0583604A2ADEF21E0023BDB9 /* General.xcconfig */,
+			);
+			path = "Swift-Compiler";
+			sourceTree = "<group>";
+		};
+		0583604D2ADEF21E0023BDB9 /* Apple-LLVM */ = {
+			isa = PBXGroup;
+			children = (
+				0583604E2ADEF21E0023BDB9 /* Language */,
+				058360522ADEF21E0023BDB9 /* Code-Generation.xcconfig */,
+				058360532ADEF21E0023BDB9 /* Address-Sanitizer.xcconfig */,
+				058360542ADEF21E0023BDB9 /* Language.xcconfig */,
+				058360552ADEF21E0023BDB9 /* Warnings.xcconfig */,
+				058360562ADEF21E0023BDB9 /* Undefined-Behavior-Sanitizer.xcconfig */,
+				058360572ADEF21E0023BDB9 /* Warning-Policies.xcconfig */,
+				058360582ADEF21E0023BDB9 /* Warnings */,
+				0583605D2ADEF21E0023BDB9 /* Preprocessing.xcconfig */,
+			);
+			path = "Apple-LLVM";
+			sourceTree = "<group>";
+		};
+		0583604E2ADEF21E0023BDB9 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				0583604F2ADEF21E0023BDB9 /* Modules.xcconfig */,
+				058360502ADEF21E0023BDB9 /* Objective-C.xcconfig */,
+				058360512ADEF21E0023BDB9 /* C++.xcconfig */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		058360582ADEF21E0023BDB9 /* Warnings */ = {
+			isa = PBXGroup;
+			children = (
+				058360592ADEF21E0023BDB9 /* Objective-C-ARC.xcconfig */,
+				0583605A2ADEF21E0023BDB9 /* Objective-C.xcconfig */,
+				0583605B2ADEF21E0023BDB9 /* C++.xcconfig */,
+				0583605C2ADEF21E0023BDB9 /* All-Languages.xcconfig */,
+			);
+			path = Warnings;
+			sourceTree = "<group>";
+		};
+		058360602ADEF21E0023BDB9 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				058360612ADEF21E0023BDB9 /* ccache-config.sh */,
+				058360622ADEF21E0023BDB9 /* ccache.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		058360632ADEF21E0023BDB9 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				058360642ADEF21E0023BDB9 /* FUNDING.yml */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		05DD6C692AD6CA1300FB2DA0 = {
+			isa = PBXGroup;
+			children = (
+				058360292ADEF0BE0023BDB9 /* README.md */,
+				0583602E2ADEF21E0023BDB9 /* xcconfig */,
+				05DD6C822AD6DDC100FB2DA0 /* Lottie.xcodeproj */,
+				05DD6C742AD6CA1300FB2DA0 /* Lottie-Preview */,
+				05DD6C732AD6CA1300FB2DA0 /* Products */,
+				05DD6C912AD6DDC900FB2DA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05DD6C732AD6CA1300FB2DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DD6C722AD6CA1300FB2DA0 /* Lottie Preview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DD6C742AD6CA1300FB2DA0 /* Lottie-Preview */ = {
+			isa = PBXGroup;
+			children = (
+				058360212ADEEFAB0023BDB9 /* Classes */,
+				058360262ADEEFC10023BDB9 /* UI */,
+				058360272ADEEFD50023BDB9 /* Supporting Files */,
+			);
+			path = "Lottie-Preview";
+			sourceTree = "<group>";
+		};
+		05DD6C832AD6DDC100FB2DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DD6C8A2AD6DDC200FB2DA0 /* Lottie.framework */,
+				05DD6C8C2AD6DDC200FB2DA0 /* Lottie.framework */,
+				05DD6C8E2AD6DDC200FB2DA0 /* Lottie.framework */,
+				05DD6C902AD6DDC200FB2DA0 /* LottieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DD6C912AD6DDC900FB2DA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DD6C712AD6CA1300FB2DA0 /* Lottie-Preview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DD6C7F2AD6CA1400FB2DA0 /* Build configuration list for PBXNativeTarget "Lottie-Preview" */;
+			buildPhases = (
+				05DD6C6E2AD6CA1300FB2DA0 /* Sources */,
+				05DD6C6F2AD6CA1300FB2DA0 /* Frameworks */,
+				05DD6C702AD6CA1300FB2DA0 /* Resources */,
+				05DD6C942AD6DDC900FB2DA0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottie-Preview";
+			productName = "Lottie-Preview";
+			productReference = 05DD6C722AD6CA1300FB2DA0 /* Lottie Preview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DD6C6A2AD6CA1300FB2DA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					05DD6C712AD6CA1300FB2DA0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 05DD6C6D2AD6CA1300FB2DA0 /* Build configuration list for PBXProject "Lottie-Preview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DD6C692AD6CA1300FB2DA0;
+			productRefGroup = 05DD6C732AD6CA1300FB2DA0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 05DD6C832AD6DDC100FB2DA0 /* Products */;
+					ProjectRef = 05DD6C822AD6DDC100FB2DA0 /* Lottie.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				05DD6C712AD6CA1300FB2DA0 /* Lottie-Preview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		05DD6C8A2AD6DDC200FB2DA0 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 05DD6C892AD6DDC200FB2DA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05DD6C8C2AD6DDC200FB2DA0 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 05DD6C8B2AD6DDC200FB2DA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05DD6C8E2AD6DDC200FB2DA0 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 05DD6C8D2AD6DDC200FB2DA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05DD6C902AD6DDC200FB2DA0 /* LottieTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LottieTests.xctest;
+			remoteRef = 05DD6C8F2AD6DDC200FB2DA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DD6C702AD6CA1300FB2DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DD6C782AD6CA1400FB2DA0 /* Assets.xcassets in Resources */,
+				05EB21D32AD7E75F0055668E /* LottieListViewController.xib in Resources */,
+				05EB21E72AD7F0240055668E /* Defaults.plist in Resources */,
+				05DD6CAB2AD6FD4300FB2DA0 /* LottieViewController.xib in Resources */,
+				05DD6C7B2AD6CA1400FB2DA0 /* MainMenu.xib in Resources */,
+				05DD6C982AD6DE3E00FB2DA0 /* LottieWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DD6C6E2AD6CA1300FB2DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DD6C962AD6DE0600FB2DA0 /* LottieWindowController.swift in Sources */,
+				05DD6CBB2AD71C9D00FB2DA0 /* NSView.swift in Sources */,
+				05EB21D62AD7E9D30055668E /* BackgroundView.swift in Sources */,
+				05663DE12AD82B2200DA9B2C /* BytesToString.swift in Sources */,
+				05EB21E42AD7EDE50055668E /* NSAppearance.swift in Sources */,
+				05DD6CAD2AD6FF6D00FB2DA0 /* DropView.swift in Sources */,
+				05DD6CAF2AD701FE00FB2DA0 /* LottieFile.swift in Sources */,
+				05EB21D22AD7E75F0055668E /* LottieListViewController.swift in Sources */,
+				05DD6CA92AD6FD3D00FB2DA0 /* LottieViewController.swift in Sources */,
+				05DD6C762AD6CA1300FB2DA0 /* ApplicationDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05DD6C792AD6CA1400FB2DA0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DD6C7A2AD6CA1400FB2DA0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DD6C7D2AD6CA1400FB2DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 058360332ADEF21E0023BDB9 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		05DD6C7E2AD6CA1400FB2DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 058360342ADEF21E0023BDB9 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		05DD6C802AD6CA1400FB2DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lottie-Preview/Lottie-Preview.entitlements";
+				INFOPLIST_FILE = "Lottie-Preview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.Lottie-Preview";
+				PRODUCT_NAME = "Lottie Preview";
+			};
+			name = Debug;
+		};
+		05DD6C812AD6CA1400FB2DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lottie-Preview/Lottie-Preview.entitlements";
+				INFOPLIST_FILE = "Lottie-Preview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xs-labs.Lottie-Preview";
+				PRODUCT_NAME = "Lottie Preview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DD6C6D2AD6CA1300FB2DA0 /* Build configuration list for PBXProject "Lottie-Preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DD6C7D2AD6CA1400FB2DA0 /* Debug */,
+				05DD6C7E2AD6CA1400FB2DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DD6C7F2AD6CA1400FB2DA0 /* Build configuration list for PBXNativeTarget "Lottie-Preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DD6C802AD6CA1400FB2DA0 /* Debug */,
+				05DD6C812AD6CA1400FB2DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DD6C6A2AD6CA1300FB2DA0 /* Project object */;
+}
