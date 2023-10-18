@@ -379,6 +379,7 @@
 			buildPhases = (
 				05DD6C6E2AD6CA1300FB2DA0 /* Sources */,
 				05DD6C6F2AD6CA1300FB2DA0 /* Frameworks */,
+				058360692ADFC3A50023BDB9 /* ShellScript */,
 				05DD6C702AD6CA1300FB2DA0 /* Resources */,
 				05DD6C942AD6DDC900FB2DA0 /* Embed Frameworks */,
 			);
@@ -477,6 +478,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058360692ADFC3A50023BDB9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    plist=\"Lottie-Preview/Info.plist\"\n    rev=$(git rev-list `git branch | grep -e \"^*\" | cut -d' ' -f 2` | wc -l)\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $rev\" \"$plist\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05DD6C6E2AD6CA1300FB2DA0 /* Sources */ = {
