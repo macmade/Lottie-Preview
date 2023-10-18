@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05663DE12AD82B2200DA9B2C /* BytesToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05663DE02AD82B2200DA9B2C /* BytesToString.swift */; };
+		058360672ADEF5060023BDB9 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 058360662ADEF5060023BDB9 /* Icon.icns */; };
 		05DD6C762AD6CA1300FB2DA0 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD6C752AD6CA1300FB2DA0 /* ApplicationDelegate.swift */; };
 		05DD6C782AD6CA1400FB2DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DD6C772AD6CA1400FB2DA0 /* Assets.xcassets */; };
 		05DD6C7B2AD6CA1400FB2DA0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DD6C792AD6CA1400FB2DA0 /* MainMenu.xib */; };
@@ -122,6 +123,7 @@
 		058360622ADEF21E0023BDB9 /* ccache.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ccache.sh; sourceTree = "<group>"; };
 		058360642ADEF21E0023BDB9 /* FUNDING.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = FUNDING.yml; sourceTree = "<group>"; };
 		058360652ADEF21E0023BDB9 /* Debug - zld.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug - zld.xcconfig"; sourceTree = "<group>"; };
+		058360662ADEF5060023BDB9 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		05DD6C722AD6CA1300FB2DA0 /* Lottie Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie Preview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DD6C752AD6CA1300FB2DA0 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
 		05DD6C772AD6CA1400FB2DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				05DD6C772AD6CA1400FB2DA0 /* Assets.xcassets */,
+				058360662ADEF5060023BDB9 /* Icon.icns */,
 				05EB21D12AD7E75F0055668E /* LottieListViewController.xib */,
 				05DD6CAA2AD6FD4300FB2DA0 /* LottieViewController.xib */,
 				05DD6C972AD6DE3E00FB2DA0 /* LottieWindowController.xib */,
@@ -467,6 +470,7 @@
 				05EB21D32AD7E75F0055668E /* LottieListViewController.xib in Resources */,
 				05EB21E72AD7F0240055668E /* Defaults.plist in Resources */,
 				05DD6CAB2AD6FD4300FB2DA0 /* LottieViewController.xib in Resources */,
+				058360672ADEF5060023BDB9 /* Icon.icns in Resources */,
 				05DD6C7B2AD6CA1400FB2DA0 /* MainMenu.xib in Resources */,
 				05DD6C982AD6DE3E00FB2DA0 /* LottieWindowController.xib in Resources */,
 			);
@@ -523,7 +527,6 @@
 		05DD6C802AD6CA1400FB2DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lottie-Preview/Lottie-Preview.entitlements";
 				INFOPLIST_FILE = "Lottie-Preview/Info.plist";
@@ -539,7 +542,6 @@
 		05DD6C812AD6CA1400FB2DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lottie-Preview/Lottie-Preview.entitlements";
 				INFOPLIST_FILE = "Lottie-Preview/Info.plist";
