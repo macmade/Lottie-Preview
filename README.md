@@ -12,6 +12,8 @@ Lottie-Preview
 
 A macOS application to display previews of Lottie animations.
 
+![Screenshot](Assets/Screenshot.png "Screenshot")
+
 License
 -------
 
