@@ -70,6 +70,8 @@ class LottieViewController: NSViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        self.animation.setContentCompressionResistancePriority( .defaultLow, for: .horizontal )
+        self.animation.setContentCompressionResistancePriority( .defaultLow, for: .vertical )
         self.view.addFillingSubview( self.animation )
     }
 
